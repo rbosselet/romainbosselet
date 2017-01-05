@@ -1,0 +1,23 @@
+.whoami{
+  padding: 50px 60px;
+  color: #3b3b3b;
+  .logo{
+    margin: 5% 5% 0 0;
+    border-radius: 10px;
+    @media screen and (max-width: 821px){
+      text-align: center;
+    }
+    img{
+      border-radius: 5%;
+      -moz-border-radius: 5%;
+      -webkit-border-radius: 5%;
+      @media screen and (max-width: 821px){
+        width: $width-img-logo-small;
+      }
+      @media screen and (min-width: 820px){
+        width: $width-img-logo-large;
+        float: right;
+      }
+    }
+  }
+}

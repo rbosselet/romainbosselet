@@ -2,6 +2,7 @@
   "author": "Romain BOSSELET",
   "dependencies": {
     "react": "^15.0.1",
+    "react-bootstrap": "^0.30.7",
     "react-dom": "^15.0.1",
     "react-fullpage": "^0.1.16",
     "react-router": "^2.4.0"
